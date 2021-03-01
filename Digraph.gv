@@ -1,0 +1,18 @@
+digraph {
+	node [fontsize=9 height=0.2 shape=circle width=0.2]
+	-1 [fillcolor=lightgray shape=box style=filled]
+	-2 [fillcolor=lightgray shape=box style=filled]
+	-3 [fillcolor=lightgray shape=box style=filled]
+	-4 [fillcolor=lightgray shape=box style=filled]
+	-5 [fillcolor=lightgray shape=box style=filled]
+	-6 [fillcolor=lightgray shape=box style=filled]
+	0 [fillcolor=lightblue style=filled]
+	1172 [fillcolor=white style=filled]
+	-1 -> 0 [color=green penwidth=0.6427681783218017 style=solid]
+	-2 -> 0 [color=green penwidth=0.11620147611889792 style=solid]
+	-4 -> 0 [color=red penwidth=0.7863407715920667 style=solid]
+	-6 -> 0 [color=green penwidth=0.7945204725872427 style=dotted]
+	-3 -> 0 [color=red penwidth=0.10375146033580072 style=dotted]
+	-3 -> 1172 [color=green penwidth=0.17334854315511833 style=solid]
+	-2 -> 1172 [color=green penwidth=0.25564640868421995 style=dotted]
+}
